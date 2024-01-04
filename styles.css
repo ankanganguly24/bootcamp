@@ -1,0 +1,38 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+.paragraph-hero{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    word-spacing: 4px;
+}
+
+.navbar{
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+#second-about{
+    background-color: #6083a6;
+    color: #fff;
+}
+
+@media (max-width: 600px){
+    #second-about{
+        background-color: #fff;
+        color: #000;
+    }
+    
+}
